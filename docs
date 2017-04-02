@@ -1,1 +1,162 @@
-sdaa
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8"/>
+		<link rel="stylesheet" href="homepage.css"/>
+		<title>Homepage</title>
+		<link href="images/title.jpg" rel="icon" type="image/x-icon" />
+	</head>
+	<body>
+		<table >
+		<tbody>
+			<tr><td colspan="2">
+				<ul class="header">
+					<li><a href="#study">Study</a></li>
+					<li ><a href="#life" >Life</a></li>
+					<li><a href="#interest">Interest</a></li>
+				</ul></td>
+			</tr>
+			
+				
+
+			<tr class="bg">
+				<td colspan="2" >
+					<h1>
+						Zhuocheng Xu
+					</h1>
+					<h2 id="welcome">
+						Welcome
+					</h2>
+				</td>
+			</tr>
+			<tr class="color">
+				<td colspan="2">
+					<h2 id="#h2">
+						Zhuocheng Xu
+					</h2>
+				</td>
+			</tr>
+			<tr class="color">  
+				<td colspan="2">
+					<img id="img2" src="images/pic2.jpg" alt="A picture of me"/>
+				</td>
+			</tr>
+			<tr class="color">
+				<td colspan="2">
+					<h3>
+						Year 2 ICS Student at XJTLU
+					</h3>
+				</td>
+			</tr>
+			
+			<tr class="study">
+				<td class="study" id="study" colspan="1">
+					<img id="img3" src="images/study.jpg" alt="Scence of the Lecture"/>
+				</td>
+				<td class="study" colspan="1">
+					<h2>Study </h2>
+					<p>
+						I'm a year two student majoring ICS at XJTLU and am also a scholarship winner. 
+					</p>
+					<p>
+						I want to be a robot scientist in the future.
+					</p>
+					<p>
+						I once delivered a speech in front of more than 150 people.
+					</p>
+				</td>
+			</tr>
+
+			<tr>
+			<td colspan="2" class="life" id="life">
+			<h2>Life</h2>
+			<p>   I like cycling and consider it an ideal way to relax and digest local customs of a place :</p>
+			<ul>
+				<li>I have cycled to many places in Suzhou </li>
+				<li>I once cycled home from the university which is up to 122km</li>
+				<li>I also had a pleasant journey cycling around Erhai Lake last summer</li>
+			</ul>
+			<p>I like making friends with interesting people and trying something different :</p>
+			<ul>
+				<li>I once stayed on an old-fashioned train for 39 hours which travels from Shanghai to western part of china.</li>
+			</ul>
+			<p>I like fast food (e.g. McDonalds) though often regarded to be harmful to health.</p>
+			<p>I watch movie sometimes. </p>
+			<p><a href="#afilm" onclick="document.getElementById('233').style.display='table';" id="afilm">Click to Find my top 5 favourate films</a></p>
+			</td>
+			</tr>
+
+			<tr ><td colspan="2">
+				<table class="film" id="233"> 
+				<thead>
+					<tr><th>Poster</th><th>Name</th><th>country</th><th>Release Year</th></tr>
+				</thead>
+				<tbody class="film">
+				<tr>
+					<td id="film1">
+						<img src="images/film1.jpg" alt="Poster of 'Snowpiercer'"/>
+					</td>
+					<td>Snowpiercer</td><td>Koera</td><td>2013</td>
+				</tr>
+				<tr>
+					<td>
+						<img src="images/film2.jpg" alt="Poster of Artificial Intelligence"/>
+					</td>
+					<td>Artificial Intelligence</td><td>America</td><td>2011</td>
+				</tr>
+				<tr>
+					<td>
+						<img src="images/film3.jpg" alt="Poster of 'Eye in the sky'"/>
+					</td>
+					<td>Eye in the sky</td><td>UK/South Africa</td><td>2015</td>
+				</tr>
+				<tr>
+					<td >
+						<img src="images/film4.jpg" alt="Poster of 'Schindler's list"/>
+					</td>
+					<td>Schindler's List </td><td>America</td><td>1993</td>
+				</tr>
+				</tbody>
+				<tfoot>
+				<tr>
+				<td colspan="4">
+					<a href="#233" onClick="document.getElementById('233').style.display='none';"><div class="arrow-up"> </div></a>
+					<hr/>
+					<p id="p3">Close</p>
+				</td></tr>
+				</tfoot>
+				</table></td>
+			</tr>
+
+			<tr >
+				<td class="interest" id="interest">
+					<h2>Interest</h2>
+					<p>
+						I'd like to be a robot scientist in the future.
+					</p>
+					<p id="p2">
+						I believe the so-called "era of robots" is coming soon along with a revolution in industry. People may not need to work hard in manufacturing industry to raise themselves any more because robots will produce everything. Social pattern is going to change and welfare will be strengthen. More and more people will have time to more creative work like art and live the life they want. Technology is giving life the potential to flourish like never before...
+					</p>
+				</td>
+				<td class="interest">
+					<img src="images/img4.jpg" id="img4" alt="Logo of Boston Dynamics"/>
+				</td>
+
+			</tr>
+
+			</tbody>
+
+			<tfoot>
+				<tr><td colspan="2">
+				<ul class="header">
+					<li><a href="http://www.xjtlu.edu.cn/en/">XJTLU</a></li>
+					<li><a href="http://www.xjtlu.edu.cn/en/departments/academic-departments/computer-science-and-software-engineering/">Department of Computer Science</a></li>
+					<li ><a href="https://www.liverpool.ac.uk/" >UOL</a></li>
+					
+				</ul></td>
+			</tr>
+			</tfoot>
+		</table>
+		<div id="top"><a href="#" id="atop" >Top</a></div>
+	</body>
+</html>
